@@ -1,11 +1,11 @@
-SAVE_DIR=/mnt/nas25/yihan01.hu/workspace/test/
+SAVE_DIR=/lpai/lipengxiang/test/
 EXPERIMENT=test_nuplan
-CACHE_DIR=/mnt/nas25/yihan01.hu/tmp/cache_dir_v1_1
-CACHE_META_PATH=/mnt/nas25/yihan01.hu/tmp/cache_dir_v1_1/metadata/cache_dir_v1_1_metadata_node_0.csv
+CACHE_DIR=/lpai/lipengxiang/cache_dir_v1_1
+CACHE_META_PATH=/lpai/lipengxiang/cache_dir_v1_1/metadata/cache_dir_v1_1_metadata_node_0.csv
 export CUDA_VISIBLE_DEVICES=7
 export PYTHONPATH=$PWD:$PYTHONPATH
-export NUPLAN_DATA_ROOT="/mnt/nas20/nuplanv1.1/data/cache/trainval"
-export NUPLAN_MAPS_ROOT="/mnt/nas20/nuplanv1.1/maps"
+export NUPLAN_DATA_ROOT="/lpai/lipengxiang/nuplan/nuplan_trainval_subset"
+export NUPLAN_MAPS_ROOT="/lpai/lipengxiang/nuplan/maps"
 export PYTHONPATH=$PWD:$PYTHONPATH
 export PYTHONPATH=$NUPLAN_DEVKIT_PATH:$PYTHONPATH
 

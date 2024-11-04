@@ -1,0 +1,1 @@
+export NUPLAN_DEVKIT_PATH=/lpai/GUMP/third_party/nuplan-devkit

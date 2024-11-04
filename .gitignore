@@ -1,6 +1,6 @@
 # Ignore all __pycache__ directories recursively
 **/__pycache__/
-
+.ipynb_checkpoints/
 # Ignore all files and directories within third_party/nuplan-devkit/
 third_party/nuplan-devkit/**
 

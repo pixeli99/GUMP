@@ -1,11 +1,11 @@
 #! /usr/bin/env bash
 EXPERIMENT="caching"
 
-SAVE_DIR="/mnt/nas25/yihan01.hu/tmp/save_dir/"
-CACHE_DIR="/mnt/nas25/yihan01.hu/tmp/cache_dir_v1_1/"
+SAVE_DIR="/lpai/volumes/ad-vlm-lf-h20/lipengxiang/save_dir/"
+CACHE_DIR="/lpai/volumes/ad-vlm-lf-h20/lipengxiang/cache_dir_v1_1/"
 
-DATA_ROOT=/home/public/data/mini
-MAP_ROOT=/mnt/nas20/nuplanv1.1/maps/
+DATA_ROOT=/lpai/lipengxiang/nuplan/nuplan_trainval_subset
+MAP_ROOT=/lpai/lipengxiang/nuplan/maps
 export PYTHONPATH=$PWD:$PYTHONPATH
 export PYTHONPATH=$NUPLAN_DEVKIT_PATH:$PYTHONPATH
 export OPENBLAS_NUM_THREADS=1 # This is to avoid OpenBlas creating too many threads
